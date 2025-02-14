@@ -54,3 +54,9 @@ for v in (my_car, your_car, cessna, golfwagon, mack):
     v.moves()
     # polymorphism: ability to act different in response to same input
 
+
+
+
+# The self parameter in Python class methods serves as a reference to the instance of the class. When a method is called on an object, Python automatically passes the object itself as the first argument, which is conventionally named self. This mechanism allows methods to access and modify the attributes and other methods of the specific instance they are called upon.
+# Without self, methods would not know which instance they are interacting with, leading to ambiguity and errors, especially when multiple instances of the same class exist. The explicit passing of the instance as self ensures that each method call operates within the correct object context. While self is a convention and not a keyword, deviating from it is strongly discouraged for readability and maintainability reasons.
+
